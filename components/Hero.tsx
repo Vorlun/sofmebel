@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section id="bosh-sahifa" className="relative isolate overflow-hidden rounded-2xl bg-greenDeep text-beigeLight shadow-soft">
       <Image
-        src="/images/hero-showroom.svg"
+        src="/images/real/hero.jpg"
         alt="Zamonaviy yashash xonasi"
         fill
         priority

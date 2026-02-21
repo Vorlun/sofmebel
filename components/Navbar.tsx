@@ -3,11 +3,11 @@
 import { useState } from 'react';
 
 const navItems = [
-  { label: 'Bosh sahifa', href: '#bosh-sahifa' },
-  { label: 'Mebel', href: '#mebel' },
-  { label: 'Aksessuarlar', href: '#aksessuarlar' },
-  { label: 'Online Magazine', href: '#online-magazine' },
-  { label: 'Biz haqimizda', href: '#biz-haqimizda' }
+  { label: 'Bosh sahifa', href: '/#bosh-sahifa' },
+  { label: 'Mebel', href: '/#mebel' },
+  { label: 'Aksessuarlar', href: '/#aksessuarlar' },
+  { label: 'Online Magazine', href: '/online-magazine' },
+  { label: 'Biz haqimizda', href: '/#biz-haqimizda' }
 ];
 
 export function Navbar() {

@@ -21,7 +21,7 @@ export function AboutSection() {
 
         <div className="relative min-h-52 overflow-hidden rounded-2xl">
           <Image
-            src="/images/about-atelier.svg"
+            src="/images/real/about.jpg"
             alt="Sifatli mebel kolleksiyasi"
             fill
             className="object-cover transition duration-500 hover:scale-105"

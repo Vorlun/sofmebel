@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
 const products = [
-  { name: 'Qora divan', price: '$250', image: '/images/product-sofa-min.svg' },
-  { name: 'Qora stul', price: '$100', image: '/images/product-chair-min.svg' },
-  { name: 'Yumshoq kreslo', price: '$170', image: '/images/product-armchair-min.svg' }
+  { name: 'Qora divan', price: '$250', image: '/images/real/product-sofa.jpg' },
+  { name: 'Qora stul', price: '$100', image: '/images/real/product-chair.jpg' },
+  { name: 'Yumshoq kreslo', price: '$170', image: '/images/real/product-armchair.jpg' }
 ];
 
 export function FeaturedProducts() {

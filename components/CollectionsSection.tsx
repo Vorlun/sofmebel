@@ -5,19 +5,19 @@ const collections = [
     title: 'Yashash xonasi',
     description: 'Keng divanlar, zamonaviy stol va qulay kreslolar to‘plami.',
     image:
-      '/images/collection-living.svg'
+      '/images/real/collection-living.jpg'
   },
   {
     title: 'Yotoqxona',
     description: 'Dam olish uchun minimalist va nafis yotoqxona mebellari.',
     image:
-      '/images/collection-bedroom.svg'
+      '/images/real/collection-bedroom.jpg'
   },
   {
     title: 'Oshxona va ovqatlanish',
     description: 'Issiq muhit yaratadigan stol-stul kombinatsiyalari.',
     image:
-      '/images/collection-dining.svg'
+      '/images/real/collection-dining.jpg'
   }
 ];
 
@@ -26,7 +26,7 @@ export function CollectionsSection() {
     <section id="mebel" className="mx-auto mt-10 w-full max-w-7xl px-5 sm:px-8 lg:mt-14 lg:px-10">
       <div className="relative overflow-hidden rounded-2xl border border-greenDeep/10 bg-[#f0ece3]/75 p-5 shadow-soft sm:p-6 lg:p-8">
         <Image
-          src="/images/showroom-main.svg"
+          src="/images/real/showroom-main.jpg"
           alt=""
           fill
           aria-hidden

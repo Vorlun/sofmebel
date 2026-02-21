@@ -5,7 +5,6 @@ import { CollectionsSection } from '@/components/CollectionsSection';
 import { WhyChooseUsSection } from '@/components/WhyChooseUsSection';
 import { ShowroomSection } from '@/components/ShowroomSection';
 import { CTASection } from '@/components/CTASection';
-import { OnlineMagazineSection } from '@/components/OnlineMagazineSection';
 import { Footer } from '@/components/Footer';
 
 export default function HomePage() {
@@ -22,7 +21,6 @@ export default function HomePage() {
         <CollectionsSection />
         <WhyChooseUsSection />
         <ShowroomSection />
-        <OnlineMagazineSection />
         <CTASection />
       </main>
       <Footer />

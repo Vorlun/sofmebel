@@ -2,15 +2,15 @@ import Image from 'next/image';
 
 const images = [
   {
-    src: '/images/showroom-main.svg',
+    src: '/images/real/showroom-main.jpg',
     alt: 'Premium showroom zonasi'
   },
   {
-    src: '/images/showroom-side-1.svg',
+    src: '/images/real/showroom-side-1.jpg',
     alt: 'Zamonaviy ovqatlanish zonasi'
   },
   {
-    src: '/images/showroom-side-2.svg',
+    src: '/images/real/showroom-side-2.jpg',
     alt: 'Minimalist mehmonxona interyeri'
   }
 ];
