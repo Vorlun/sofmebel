@@ -2,25 +2,39 @@ import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}'
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
+    container: {
+      center: true,
+      padding: '1rem',
+      screens: {
+        '2xl': '1280px'
+      }
+    },
     extend: {
       colors: {
-        greenDeep: '#1F3D2B',
-        beigeLight: '#F5F2EB',
-        goldAccent: '#C6A969'
+        primary: '#1E293B',
+        secondary: '#334155',
+        accent: '#C6A969',
+        background: '#F8FAFC',
+        muted: '#94A3B8'
       },
       fontFamily: {
-        sans: ['Avenir Next', 'Manrope', 'Segoe UI', 'system-ui', 'sans-serif'],
-        display: ['Bodoni MT', 'Didot', 'Times New Roman', 'serif']
+        sans: ['Inter', 'Manrope', 'system-ui', 'sans-serif'],
+        display: ['Playfair Display', 'serif']
       },
       boxShadow: {
-        soft: '0 14px 44px rgba(31, 61, 43, 0.2)'
+        soft: '0 10px 30px rgba(0,0,0,0.08)',
+        luxury: '0 20px 60px rgba(0,0,0,0.12)'
       },
       borderRadius: {
-        '2xl': '1.25rem'
+        xl: '1rem',
+        '2xl': '1.5rem'
+      },
+      transitionTimingFunction: {
+        smooth: 'cubic-bezier(0.4, 0, 0.2, 1)'
       }
     }
   },

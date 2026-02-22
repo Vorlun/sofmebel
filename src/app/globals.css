@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base reset */
+body {
+  min-height: 100vh;
+}
+
+/* Text selection */
+::selection {
+  background: rgba(198, 169, 105, 0.35);
+}
+
+/* Premium subtle glass */
+@layer utilities {
+  .glass-soft {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
